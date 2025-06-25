@@ -3,7 +3,7 @@
 
 ![Preview of Among Us Mod Menu](AmongUsModMenu.jpg)
 
-Floating mod menu for Among Us Mod Menu, requires Android Studio Doesn't compile with AIDE!
+Floating mod menu for Among Us Mod Menu, requires Android Studio Doesn't compile with AIDE! for Mobile Users Please use GitHub Actions!
 
 This project is continuing the legacy of LGL Mod Menu!
 
