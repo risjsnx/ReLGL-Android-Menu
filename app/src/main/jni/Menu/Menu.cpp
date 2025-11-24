@@ -62,7 +62,6 @@ jobjectArray SettingsList(JNIEnv *env) {
     const char *features[] = {
             OBFUSCATE("Category_Settings"),
             OBFUSCATE("-1_Toggle_Save feature preferences"), //-1 is checked on Preferences.java
-            OBFUSCATE("-3_Toggle_Hide Watermark"),
     };
 
     int Total_Feature = (sizeof features /
