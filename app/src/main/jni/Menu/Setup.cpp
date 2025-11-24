@@ -81,7 +81,7 @@ void Init(JNIEnv *env, jobject, jobject ctx, jobject title, jobject subtitle, jo
 
     setText(env, t3, OBFUSCATE("Account<br>Mods"));
 
-    setText(env, t4, OBFUSCATE("ReLGL"));
+    setText(env, t4, OBFUSCATE("ReLGL<br>Project"));
 
     initValid = true;
 }
