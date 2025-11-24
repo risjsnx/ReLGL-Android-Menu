@@ -73,7 +73,7 @@ void Init(JNIEnv *env, jobject, jobject ctx, jobject title, jobject subtitle, jo
     setText(env, title, OBFUSCATE("<b>Developed by ReLGL Team</b>"));
 
     //Set sub title
-    setText(env, subtitle, OBFUSCATE("<b>Among Us</b>"));
+    setText(env, subtitle, OBFUSCATE("<b>Continuing the legacy of LGLTeam</b>"));
 
     setText(env, t1, OBFUSCATE("Player<br>Mods"));
 
