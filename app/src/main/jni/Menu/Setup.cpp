@@ -1,6 +1,5 @@
 #include <sstream>
 #include "Menu/Menu.cpp"
-#include "Menu/get_device_api_level_inlines.h"
 
 void startActivityPermisson(JNIEnv *env, jobject ctx){
     jclass native_context = env->GetObjectClass(ctx);
