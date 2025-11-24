@@ -721,7 +721,7 @@ public class Menu {
             GD_TRACK.setColor(LST_MAB);
 
             GD_THUMB.setStroke(2, Color.WHITE);
-            GD_TRACK.setStroke(2, Color.agrb(255, 255, 192, 203));
+            GD_TRACK.setStroke(Color.agrb(255, 255, 192, 203));
         } else {
             GD_TRACK.setStroke(2, Color.agrb(255, 255, 192, 203));
             GD_TRACK.setColor(Color.argb(200, 255, 255, 255));
