@@ -593,8 +593,12 @@ public class Menu {
                             //When user clicks on the image view of the collapsed layout,
                             //visibility of the collapsed layout will be changed to "View.GONE"
                             //and expanded view will become visible.
+                        if (collapsedView != null) {
                             collapsedView.setVisibility(View.GONE);
+                        }
+                        if (expandedView != null) {
                             expandedView.setVisibility(View.VISIBLE);
+                        }
                             view.performClick();
                         }
                         return true;
