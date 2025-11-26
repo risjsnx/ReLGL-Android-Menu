@@ -1023,6 +1023,7 @@ public class Menu {
             titleText.setTypeface(Typeface.DEFAULT_BOLD);
             titleText.setTextColor(TEXT_COLOR);
             titleText.setTextSize(22f);
+            titleText.setShadowLayer(7.0f, 0.0f, 0.0f, Color.BLACK);
 
             //TextView
             final TextView TextViewNote = new TextView(getContext);
