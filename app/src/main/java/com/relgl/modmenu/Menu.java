@@ -88,7 +88,7 @@ public class Menu {
 
     int LST_MAB = Color.parseColor("#FFA500");
     int TAB_STROKE_COLOR = Color.parseColor("#FFA500");
-    int TAB_TEXT_COLOR = Color.parseColor("#FFA500"):
+    int TAB_TEXT_COLOR = Color.parseColor("#FFA500");
     float TAB_TEXT_SIZE = 12.5f;
     HorizontalScrollView Scroll;
     ScrollView H;
