@@ -717,17 +717,17 @@ public class Menu {
         boolean isOn = Preferences.loadPrefBool(getContext, featName, featNum, swiOn);
 
         if (isOn) {
-            GD_TRACK.setStroke(2, Color.WHITE);
+            GD_TRACK.setStroke(2, Color.YELLOW);
             GD_TRACK.setColor(LST_MAB);
 
-            GD_THUMB.setStroke(2, Color.WHITE);
+            GD_THUMB.setStroke(2, Color.YELLOW);
             GD_TRACK.setColor(LST_MAB);
         } else {
             GD_TRACK.setStroke(2, LST_MAB);
-            GD_TRACK.setColor(Color.WHITE);
+            GD_TRACK.setColor(Color.YELLOW);
 
             GD_TRACK.setStroke(2, LST_MAB);
-            GD_THUMB.setColor(Color.WHITE);
+            GD_THUMB.setColor(Color.YELLOW);
         }
         switchR.setText(featName);
         switchR.setTextColor(TEXT_COLOR);
@@ -739,17 +739,17 @@ public class Menu {
         switchR.setOnCheckedChangeListener((compoundButton, bool) -> {
             Preferences.changeFeatureBool(getContext, featName, featNum, bool);
             if (bool) {
-                GD_TRACK.setStroke(2, Color.WHITE);
+                GD_TRACK.setStroke(2, Color.YELLOW);
                 GD_TRACK.setColor(LST_MAB);
 
-                GD_THUMB.setStroke(2, Color.WHITE);
+                GD_THUMB.setStroke(2, Color.YELLOW);
                 GD_THUMB.setColor(LST_MAB);
             } else {
                 GD_TRACK.setStroke(2, LST_MAB);
-                GD_TRACK.setColor(Color.WHITE);
+                GD_TRACK.setColor(Color.YELLOW);
 
                 GD_THUMB.setStroke(2, LST_MAB);
-                GD_THUMB.setColor(Color.WHITE);
+                GD_THUMB.setColor(Color.YELLOW);
             }
             switch (featNum) {
                 case -1: //Save perferences
