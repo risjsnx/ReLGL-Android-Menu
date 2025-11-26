@@ -71,8 +71,8 @@ public class Menu {
     int TEXT_COLOR = Color.WHITE;
     int BTN_COLOR = Color.ORANGE;
     int MENU_BG_COLOR = Color.ORANGE;
-    int MENU_WIDTH = 350;
-    int MENU_HEIGHT = 260;
+    int MENU_WIDTH = 250;
+    int MENU_HEIGHT = 160;
     int POS_X = 0;
     int POS_Y = 100;
 
