@@ -723,8 +723,8 @@ public class Menu {
             GD_THUMB.setStroke(2, Color.WHITE);
             GD_TRACK.setColor(LST_MAB);
         } else {
-            GD_TRACK.setStroke(2, Color.WHITE);
-            GD_TRACK.setColor(LST_MAB);
+            GD_TRACK.setStroke(2, LST_MAB);
+            GD_TRACK.setColor(Color.WHITE);
 
             GD_TRACK.setStroke(2, Color.WHITE);
             GD_THUMB.setColor(LST_MAB);
@@ -748,7 +748,7 @@ public class Menu {
                 GD_TRACK.setStroke(2, Color.WHITE);
                 GD_TRACK.setColor(LST_MAB);
 
-                GD_THUMB.setStroke(2, Color.WHITE);
+                GD_THUMB.setStroke(2, LST_MAB);
                 GD_THUMB.setColor(Color.WHITE);
             }
             switch (featNum) {
