@@ -721,12 +721,12 @@ public class Menu {
             GD_TRACK.setColor(LST_MAB);
 
             GD_THUMB.setStroke(2, Color.WHITE);
-            GD_TRACK.setColor(Color.argb(255, 255, 255, 0));
+            GD_TRACK.setColor(LST_MAB);
         } else {
-            GD_TRACK.setStroke(2, Color.argb(255, 255, 255, 0));
+            GD_TRACK.setStroke(2, Color.argb(255, 255, 165, 0));
             GD_TRACK.setColor(Color.argb(200, 255, 255, 255));
 
-            GD_TRACK.setStroke(2, Color.argb(255, 255, 255, 0));
+            GD_TRACK.setStroke(2, Color.argb(255, 255, 165, 0));
             GD_THUMB.setColor(Color.WHITE);
         }
         switchR.setText(featName);
@@ -743,12 +743,12 @@ public class Menu {
                 GD_TRACK.setColor(LST_MAB);
 
                 GD_THUMB.setStroke(2, Color.WHITE);
-                GD_THUMB.setColor(Color.argb(255, 255, 255, 0));
+                GD_THUMB.setColor(LST_MAB);
             } else {
-                GD_TRACK.setStroke(2, Color.argb(255, 255, 255, 0));
+                GD_TRACK.setStroke(2, Color.argb(255, 255, 165, 0));
                 GD_TRACK.setColor(Color.argb(200, 255, 255, 255));
 
-                GD_THUMB.setStroke(2, Color.argb(255, 255, 255, 0));
+                GD_THUMB.setStroke(2, Color.argb(255, 255, 165, 0));
                 GD_THUMB.setColor(Color.WHITE);
             }
             switch (featNum) {
