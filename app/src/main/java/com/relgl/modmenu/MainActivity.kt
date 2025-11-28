@@ -78,9 +78,9 @@ class MainActivity : Activity() {
                 Main.Start(this)
                 return
 
-            } catch (e: ClassNotFoundException) {
+            } /* catch (e: ClassNotFoundException) {
                 Log.e("Mod_menu", "Error. Game's main activity does not exist.")
-            }
+            } */
         }
 
         // Launch mod menu normally
