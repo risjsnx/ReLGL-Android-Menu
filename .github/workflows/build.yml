@@ -1,4 +1,4 @@
-name: Build
+name: Build Rewrite Kotlin
 
 on:
   workflow_dispatch:
